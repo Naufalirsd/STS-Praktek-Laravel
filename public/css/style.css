@@ -1,0 +1,99 @@
+/* style.css */
+.main-content {
+    margin-top: 100px; /* Jarak antara header dan body */
+    margin-bottom: 100px; /* Jarak antara body dan footer */
+}
+
+.navbar {
+    background-color: #192436;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 20px; /* Jarak antara header dengan elemen lain */
+}
+
+body {
+    background-color: #54595f;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.hd {
+    margin-left: 10%;
+}
+
+.btn {
+    margin-left: 11.5%;
+    background-color: #192436;
+    border: none;
+}
+
+.cream-text {
+    color: bisque;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* horizontal-offset vertical-offset blur-color spread */
+}
+
+.cream-text-2 {
+    color: bisque;
+    font-weight: 200;
+    font-size: 18px;
+    max-width: 75%;
+}
+
+.hero {
+    margin-top: 6%;
+}
+
+.btn-custom {
+    padding: 10px 20px;
+    width: 15%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 50%; /* Membuat gambar bulat */
+}
+
+.welcome-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* horizontal-offset vertical-offset blur-color spread */
+    text-align: center;
+}
+
+.section-div h1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.welcome-image {
+    width: 100%;
+    border-radius: 10px; /* Untuk membuat gambar bulat, sesuaikan dengan kebutuhan */
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #192436;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
